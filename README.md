@@ -55,9 +55,9 @@ Right now, the app should be able to open the new page easily. However, when we 
    <button ion-button icon-only start menuToggle><ion-icon name="menu"></ion-icon></button>
 ```
 
-Copy the above button, open the new page we created, find the ion-navbar element
+Copy the above button, open the new html page we created, find the ion-navbar element
 
-*ionic-angular-sidemenu-lazyloading/src/pages/about/about.ts*
+*ionic-angular-sidemenu-lazyloading/src/pages/about/about.html*
 ```html
   <ion-navbar>
     <ion-title>about</ion-title>
@@ -67,7 +67,7 @@ Copy the above button, open the new page we created, find the ion-navbar element
 
 Then add the button inside it.
 
-*ionic-angular-sidemenu-lazyloading/src/pages/about/about.ts*
+*ionic-angular-sidemenu-lazyloading/src/pages/about/about.html*
 ```html
   <ion-navbar>
   	<button ion-button icon-only start menuToggle><ion-icon name="menu"></ion-icon></button>
